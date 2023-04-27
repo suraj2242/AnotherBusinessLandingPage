@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+header{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 8rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:5rem;
+}
+
+img {
+  width: 92px;
+  height: 32px;
+}
+
+nav ul{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap:5rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+.line{
+    height: 5rem;
+    width: .1rem;
+    background-color: #fff;
+}
+.btn{
+    background-color: #BA0CC5;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    padding: .7rem 2.8rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: .6rem;
+}
+
+
+/* ---------------------------- */
+/* ------- HERO-SECTION ------- */
+/* ---------------------------- */
+
+.hero-section{
+    background-image: url(./assests/images/bg.png);
+    height: 91.5vh;
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.btn-large{
+    background-color: #BA0CC5;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    margin-top: 64px;
+    cursor: pointer;
+}
+.hero-heading{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 7rem;
+    max-width: 60rem;
+    padding-top: 12rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-description{
+    font-size: 1.6rem;
+    line-height: 45px;
+    color: #fff;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
